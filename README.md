@@ -52,7 +52,7 @@ Here are some examples of using the GDB MCP server through Claude:
 
 ### Using with Kilo Code
 
-For setup and remote debugging instructions tailored to Kilo Code (including NFS + gdbserver scenarios such as OpenBMC on ASPEED AST2600), see [docs/kilo-code.md](docs/kilo-code.md).
+For setup and remote debugging instructions tailored to Kilo Code (including NFS + gdbserver scenarios such as OpenBMC on ASPEED AST2600), see [docs/kilo-code.md](docs/kilo-code.md). For ideas on using LLMs to summarize runtime GDB output as Mermaid diagrams (call graphs, thread views, crash timelines), see [docs/mermaid-runtime.md](docs/mermaid-runtime.md) and [docs/mermaid-debugging.md](docs/mermaid-debugging.md).
 
 #### Starting a GDB session
 ```
