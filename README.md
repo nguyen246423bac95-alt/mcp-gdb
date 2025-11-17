@@ -50,6 +50,10 @@ npm run build
 
 Here are some examples of using the GDB MCP server through Claude:
 
+### Using with Kilo Code
+
+For setup and remote debugging instructions tailored to Kilo Code (including NFS + gdbserver scenarios such as OpenBMC on ASPEED AST2600), see [docs/kilo-code.md](docs/kilo-code.md).
+
 #### Starting a GDB session
 ```
 Use gdb_start to start a new debugging session
